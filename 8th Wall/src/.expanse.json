@@ -28,53 +28,14 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.4038940050501252
     },
-    "729478ae-d067-4e0c-a753-66c2e9efb625": {
-      "components": {
-        "8fe14f4e-4311-4b03-807d-a34c9c11368d": {
-          "id": "8fe14f4e-4311-4b03-807d-a34c9c11368d",
-          "name": "example-component",
-          "parameters": {}
-        }
-      },
-      "geometry": {
-        "depth": 1,
-        "height": 1,
-        "type": "box",
-        "width": 1
-      },
-      "id": "729478ae-d067-4e0c-a753-66c2e9efb625",
-      "material": {
-        "color": "#7611b6",
-        "type": "basic",
-        "textureFiltering": "sharp"
-      },
-      "name": "Box",
-      "position": [
-        0,
-        0.5,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.4038940050501252
-    },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
         }
       },
       "components": {},
@@ -129,6 +90,67 @@
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
+    },
+    "bedf9f35-23d3-43c6-b7e4-5c089a041af5": {
+      "id": "bedf9f35-23d3-43c6-b7e4-5c089a041af5",
+      "position": [
+        0,
+        0.0632592750905494,
+        -0.2673867083442364
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/AvatarIntgrtdAnims.glb"
+        },
+        "animationClip": "Sitting Idle",
+        "loop": true
+      },
+      "name": "AvatarIntgrtdAnims.glb",
+      "order": 3.2731605873644503
+    },
+    "5c0445bb-2936-42d0-ab13-8fdcd107d15e": {
+      "id": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865476,
+        -8.659560562354927e-17,
+        -8.659560562354937e-17,
+        0.7071067811865475
+      ],
+      "scale": [
+        1.9463252621223561,
+        1.9463252621223568,
+        1.946325262122359
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Back@4x-8",
+      "imageTarget": {
+        "name": "Back@4x-8"
+      },
+      "order": 5.117671075865997
     }
   },
   "spaces": {
