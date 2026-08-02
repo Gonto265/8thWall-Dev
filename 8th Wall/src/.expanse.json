@@ -44,15 +44,15 @@
       "material": null,
       "name": "Camera",
       "position": [
-        3.686858724923365,
-        3.46805621955999,
-        8.770443802184744
+        1.086858724923363,
+        2.7680562195599894,
+        5.170443802184751
       ],
       "rotation": [
-        -0.09904576054128764,
-        0.8923991008325228,
-        -0.23911761839433443,
-        -0.3696438106143861
+        0.03892985909915528,
+        -0.9360178768950861,
+        0.07812163290916727,
+        0.3409574910086943
       ],
       "scale": [
         1,
@@ -94,24 +94,27 @@
     "bedf9f35-23d3-43c6-b7e4-5c089a041af5": {
       "id": "bedf9f35-23d3-43c6-b7e4-5c089a041af5",
       "position": [
-        -0.09650040432222239,
-        2.1427394152833598e-17,
-        2.8123881618326834e-48
+        -9.860761315262648e-32,
+        9.260298870186852e-33,
+        -0.18782117473736284
       ],
       "rotation": [
-        0.4999999999999999,
-        0.5,
-        0.5,
-        0.5000000000000001
+        -1.1102230246251568e-16,
+        1.1102230246251564e-16,
+        1.2325951644078342e-32,
+        1
       ],
       "scale": [
-        0.513788737916065,
-        0.5137887379160643,
-        0.5137887379160652
+        1.0000000000000002,
+        0.9999999999999998,
+        1
       ],
       "geometry": null,
-      "material": null,
-      "parentId": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF"
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
       "gltfModel": {
         "src": {
@@ -120,10 +123,10 @@
         },
         "animationClip": "BackFlip",
         "loop": true,
-        "reverse": true
+        "reverse": false
       },
       "name": "AvatarIntgrtdAnims.glb",
-      "order": 2.7610993254815748
+      "order": 3.894449924693896
     },
     "5c0445bb-2936-42d0-ab13-8fdcd107d15e": {
       "id": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
@@ -156,20 +159,20 @@
     "5f32e2b6-4cbc-4dfc-b147-5600263bed83": {
       "id": "5f32e2b6-4cbc-4dfc-b147-5600263bed83",
       "position": [
-        19.071023940667146,
-        -4.183324584714401e-15,
-        0.2310048997775269
+        -4.5606021083089745e-31,
+        0.4496106721110443,
+        111.18403935972148
       ],
       "rotation": [
-        7.850462293418857e-17,
-        7.850462293418891e-17,
-        0.7071067811865475,
+        -0.7071067811865475,
+        -7.850462293418852e-17,
+        7.850462293418855e-17,
         0.7071067811865476
       ],
       "scale": [
-        0.2,
-        0.4,
-        0.20000000000000012
+        0.3892650524244714,
+        0.7785301048489425,
+        0.389265052424472
       ],
       "geometry": {
         "type": "cone",
@@ -186,20 +189,188 @@
           "name": "position-animation",
           "parameters": {
             "autoFrom": true,
-            "easeIn": true,
+            "easeIn": false,
             "easeOut": true,
             "easingFunction": "Quadratic",
             "toX": 0,
             "toY": 0,
-            "toZ": -100,
+            "toZ": -50,
             "loop": true,
-            "duration": 5000
+            "duration": 4100
           }
+        },
+        "72efa6cf-0ed2-416a-9ec7-b53b496c3b67": {
+          "id": "72efa6cf-0ed2-416a-9ec7-b53b496c3b67",
+          "name": "customComponent",
+          "parameters": {}
         }
       },
       "name": "Cono (1)",
-      "order": 4.42248717759856,
-      "parentId": "5c0445bb-2936-42d0-ab13-8fdcd107d15e"
+      "order": 2.6665058618199535,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+    },
+    "ef2a4733-dd7c-4e3f-bcdd-4e16c25b3ee8": {
+      "id": "ef2a4733-dd7c-4e3f-bcdd-4e16c25b3ee8",
+      "position": [
+        -3.6854986940016103,
+        1.38215244280297,
+        -6.988889422456511e-16
+      ],
+      "rotation": [
+        0,
+        0.3826834323650898,
+        0,
+        0.9238795325112867
+      ],
+      "scale": [
+        7.2,
+        7.2,
+        1
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Dgo.mp4"
+        }
+      },
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Plano",
+      "order": 3.2804778932569247,
+      "videoControls": {
+        "loop": true,
+        "speed": 1
+      }
+    },
+    "8f0f2777-e70b-4e53-a1d2-469c92ed6e67": {
+      "id": "8f0f2777-e70b-4e53-a1d2-469c92ed6e67",
+      "position": [
+        -3.777501343445752,
+        1.3729311532955406,
+        0.2999999999999985
+      ],
+      "rotation": [
+        0,
+        0.3826834323650898,
+        0,
+        0.9238795325112867
+      ],
+      "scale": [
+        3,
+        3.0000000000000013,
+        3.000000000000001
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "bedf9f35-23d3-43c6-b7e4-5c089a041af5",
+      "components": {
+        "e2c0b50e-c4ce-4ec6-a0c1-0b18ed308a06": {
+          "id": "e2c0b50e-c4ce-4ec6-a0c1-0b18ed308a06",
+          "name": "video-toggle-button",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "ef2a4733-dd7c-4e3f-bcdd-4e16c25b3ee8"
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#007db3",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Botón",
+      "order": -0.04226859728314736
+    },
+    "202c7fb9-66d9-437b-bacf-6234e702fdd6": {
+      "id": "202c7fb9-66d9-437b-bacf-6234e702fdd6",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8f0f2777-e70b-4e53-a1d2-469c92ed6e67",
+      "components": {},
+      "name": "Icono",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/playIcon.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "background": "#000000",
+        "borderRadius": 0
+      },
+      "order": 0.4834170270519583
+    },
+    "ec90630f-b849-49ac-9711-c83c97abaa9b": {
+      "id": "ec90630f-b849-49ac-9711-c83c97abaa9b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "8f0f2777-e70b-4e53-a1d2-469c92ed6e67",
+      "components": {},
+      "name": "Texto",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Play",
+        "color": "#ffffff",
+        "fontSize": 20,
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "order": 1.055338109495746
     }
   },
   "spaces": {
