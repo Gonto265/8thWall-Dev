@@ -41,6 +41,8 @@ ecs.registerComponent({
     ecs.defineState('default')
       .initial()
       .listen(eid, ecs.input.SCREEN_TOUCH_START, () => {
+        console.log('Toque detectado en el personaje, eid:', eid) // <-- diagnóstico
+
         const data = dataAttribute.cursor(eid)
         const nextIndex = (data.currentIndex + 1) % ANIMATION_STATES.length
         data.currentIndex = nextIndex
