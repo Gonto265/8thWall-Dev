@@ -1,11 +1,11 @@
 import * as ecs from '@8thwall/ecs'
 
 const ANIMATION_STATES = [
-  { clip: 'Armature_1.001|mixamo.com|Layer0',  position: { x: 0,   y: 0, z: 0 },   rotationDeg: { x: 0, y: 0,   z: 0 } },
-  { clip: 'Armature_1.001|mixamo.com|Layer0.001',  position: { x: 0.5, y: 0, z: 0 },   rotationDeg: { x: 0, y: 90,  z: 0 } },
-  { clip: 'Armature_1|mixamo.com|Layer0', position: { x: 0,   y: 0, z: 0.5 }, rotationDeg: { x: 0, y: 180, z: 0 } },
-  { clip: 'Armature_1|mixamo.com|Layer0.001', position: { x: 0,   y: 0, z: 0.5 }, rotationDeg: { x: 0, y: 180, z: 0 } },
-  { clip: 'Armature_1|mixamo.com|Layer0.004', position: { x: 0,   y: 0, z: 0.5 }, rotationDeg: { x: 0, y: 180, z: 0 } },
+  { clip: 'Armature_1.001|mixamo.com|Layer0',  position: { x: -0.203,   y: 0.097, z: -0.658 },   rotationDeg: { x: 0, y: 0,   z: 0 } },
+  { clip: 'Armature_1.001|mixamo.com|Layer0.001',  position: { x: -0.794, y: 0.156, z: -0.827 },   rotationDeg: { x: 0, y: 0,  z: 0 } },
+  { clip: 'Armature_1|mixamo.com|Layer0', position: { x: -0.186,   y: 0.097, z: -0.529 }, rotationDeg: { x: 0, y: 0, z: 0 } },
+  { clip: 'Armature_1|mixamo.com|Layer0.004', position: { x: 0.294,   y: 0.097, z: -0.622 }, rotationDeg: { x: 0, y: -55, z: 0 } },
+  { clip: 'Armature_1|mixamo.com|Layer0.001', position: { x: -0.391,   y: 0.097, z: -0.529 }, rotationDeg: { x: 0, y: 0, z: 0 } },
 ]
 
 const applyAnimationState = (world, eid, index) => {
