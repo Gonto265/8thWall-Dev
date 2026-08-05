@@ -91,43 +91,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "bedf9f35-23d3-43c6-b7e4-5c089a041af5": {
-      "id": "bedf9f35-23d3-43c6-b7e4-5c089a041af5",
-      "position": [
-        0.012981375188508002,
-        -0.3313583901001743,
-        0.5643286644735229
-      ],
-      "rotation": [
-        -7.663350976776343e-47,
-        7.850462293418875e-17,
-        -9.773163474012224e-33,
-        1
-      ],
-      "scale": [
-        0.15,
-        0.15000000000000016,
-        0.14999999999999983
-      ],
-      "geometry": null,
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF"
-      },
-      "parentId": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/AvatarIntgrtdAnims.glb"
-        },
-        "animationClip": "BackFlip",
-        "loop": true,
-        "reverse": false
-      },
-      "name": "AvatarIntgrtdAnims.glb",
-      "order": 1.8425338934265465
-    },
     "5c0445bb-2936-42d0-ab13-8fdcd107d15e": {
       "id": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
       "position": [
@@ -159,20 +122,20 @@
     "5f32e2b6-4cbc-4dfc-b147-5600263bed83": {
       "id": "5f32e2b6-4cbc-4dfc-b147-5600263bed83",
       "position": [
-        57.13808863422993,
-        -0.10035349032264718,
-        0.5643286644735356
+        57.13808863423002,
+        -0.05054747887575206,
+        0.24703444853074036
       ],
       "rotation": [
-        -0.5,
-        0.5000000000000001,
-        0.5000000000000001,
-        0.5
+        -0.49999999999997746,
+        0.4999999999999778,
+        0.49999999999997746,
+        0.5000000000000449
       ],
       "scale": [
-        0.1999999999999998,
-        0.4,
-        0.20000000000000034
+        0.19999999999999088,
+        0.3999999999999824,
+        0.19999999999999127
       ],
       "geometry": {
         "type": "cone",
@@ -212,20 +175,20 @@
     "ef2a4733-dd7c-4e3f-bcdd-4e16c25b3ee8": {
       "id": "ef2a4733-dd7c-4e3f-bcdd-4e16c25b3ee8",
       "position": [
-        0.004697294414058426,
-        0.0010483584329828988,
-        0.2787227913482828
+        -0.020429835180853617,
+        0.004527333486185281,
+        0.031286980075955984
       ],
       "rotation": [
-        -1.8868222257697526e-33,
-        7.850462293418881e-17,
-        -1.3303267991479529e-31,
-        1
+        -0.0001688323411379236,
+        -0.21682130735804228,
+        -0.0020780437429059554,
+        0.9762090830372364
       ],
       "scale": [
-        0.6712805321382956,
-        0.6712805321382945,
-        0.09323340724142971
+        1.0110080640223116,
+        1.666333712505183,
+        0.3783535494992799
       ],
       "geometry": {
         "type": "plane",
@@ -240,19 +203,8 @@
           "asset": "assets/Dgo.mp4"
         }
       },
-      "parentId": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
-      "components": {
-        "a667b462-bdad-4967-8cbc-1a8b149f3c4d": {
-          "id": "a667b462-bdad-4967-8cbc-1a8b149f3c4d",
-          "name": "look-at-animation",
-          "parameters": {
-            "target": {
-              "type": "entity",
-              "id": "a608ddd9-9379-464d-966f-5d8d8674c83c"
-            }
-          }
-        }
-      },
+      "parentId": "562454ab-c644-4098-8b74-b0a915da5ba6",
+      "components": {},
       "name": "Video",
       "order": 2.1450670550699877,
       "videoControls": {
@@ -263,24 +215,24 @@
     "8f0f2777-e70b-4e53-a1d2-469c92ed6e67": {
       "id": "8f0f2777-e70b-4e53-a1d2-469c92ed6e67",
       "position": [
-        0.015156108513634987,
-        0.00018862619304532702,
-        0.28730051183119876
+        0,
+        0,
+        0.01
       ],
       "rotation": [
-        7.663350976776343e-47,
-        7.850462293418875e-17,
-        -5.29139942282863e-32,
+        0,
+        -2.8680761469483214e-17,
+        6.245004513516495e-18,
         1
       ],
       "scale": [
-        0.27970022172429,
-        0.2797002217242897,
-        0.2797002217242897
+        0.4166666666666668,
+        0.4166666666666672,
+        3.0000000000000075
       ],
       "geometry": null,
       "material": null,
-      "parentId": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
+      "parentId": "ef2a4733-dd7c-4e3f-bcdd-4e16c25b3ee8",
       "components": {
         "e2c0b50e-c4ce-4ec6-a0c1-0b18ed308a06": {
           "id": "e2c0b50e-c4ce-4ec6-a0c1-0b18ed308a06",
@@ -343,8 +295,8 @@
       "components": {},
       "name": "Icono",
       "ui": {
-        "width": 16,
-        "height": 16,
+        "width": 50,
+        "height": 20,
         "image": {
           "type": "asset",
           "asset": "assets/playIcon.png"
@@ -356,59 +308,22 @@
       },
       "order": 0.4834170270519583
     },
-    "ec90630f-b849-49ac-9711-c83c97abaa9b": {
-      "id": "ec90630f-b849-49ac-9711-c83c97abaa9b",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "8f0f2777-e70b-4e53-a1d2-469c92ed6e67",
-      "components": {},
-      "name": "Texto",
-      "ui": {
-        "width": 50,
-        "height": 14,
-        "text": "Play",
-        "color": "#ffffff",
-        "fontSize": 20,
-        "verticalTextAlign": "center",
-        "font": {
-          "type": "font",
-          "font": "Futura"
-        }
-      },
-      "order": 1.055338109495746
-    },
     "29e8d703-c044-4101-8a3f-eb78735b1a75": {
       "id": "29e8d703-c044-4101-8a3f-eb78735b1a75",
       "position": [
-        0.012981375188508002,
-        -0.3313583901001743,
-        0.5643286644735229
+        0,
+        -0.2848097632024445,
+        0.24703444853072842
       ],
       "rotation": [
-        -0.7071067999999993,
+        -0.707106800000003,
         0,
         0,
-        0.7071067623730954
+        0.7071067623730917
       ],
       "scale": [
-        0.5137887379160652,
-        0.5137887652560382,
+        0.9624831280946458,
+        0.5137887652560383,
         0.5137887652560387
       ],
       "geometry": {
@@ -418,12 +333,407 @@
       },
       "material": {
         "type": "basic",
-        "color": "#FFFFFF"
+        "color": "#232424"
       },
       "parentId": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
       "components": {},
       "name": "Piso",
       "order": 4.726174738238176
+    },
+    "266f10e5-c085-4e91-8945-dec7f1e2e48f": {
+      "id": "266f10e5-c085-4e91-8945-dec7f1e2e48f",
+      "position": [
+        -0.2639042900296139,
+        -0.281552378653279,
+        0.16167882434891134
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.15413662137481954,
+        0.15413662137481948,
+        0.15413662137481932
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/AvatarAnim.glb"
+        },
+        "animationClip": "Armature_1|mixamo.com|Layer0.004",
+        "loop": true
+      },
+      "name": "AvatarAnim.glb",
+      "order": 6.374412461000178,
+      "collider": {
+        "geometry": {
+          "type": "cylinder",
+          "radius": 0.4,
+          "height": 1.7000000000000006
+        },
+        "offsetZ": -2.7755575615628914e-17,
+        "offsetY": 0.85
+      }
+    },
+    "562454ab-c644-4098-8b74-b0a915da5ba6": {
+      "id": "562454ab-c644-4098-8b74-b0a915da5ba6",
+      "position": [
+        -0.05315889814979116,
+        0.15020329754053444,
+        0.002125230519777817
+      ],
+      "rotation": [
+        -0.1533936709126237,
+        0.8326987285181637,
+        0.10202553509335201,
+        0.5221819600839332
+      ],
+      "scale": [
+        0.1164423384719441,
+        0.11644233847194421,
+        0.11644233847194423
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "de80db73-e202-42ad-8f07-7b92a6ee432e",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Phone.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Phone.glb",
+      "order": 7.8342080932886
+    },
+    "de80db73-e202-42ad-8f07-7b92a6ee432e": {
+      "id": "de80db73-e202-42ad-8f07-7b92a6ee432e",
+      "position": [
+        0.2853863691484575,
+        -0.2859103964968186,
+        0.3133776645293438
+      ],
+      "rotation": [
+        0,
+        -0.8090169943749472,
+        0,
+        0.5877852522924734
+      ],
+      "scale": [
+        2.1233608576166714,
+        2.1233608576166745,
+        2.123360857616674
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Stand.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Stand.glb",
+      "order": 8.294003725577022
+    },
+    "cde9f13e-2a6a-4b10-8190-87955b6a6af6": {
+      "id": "cde9f13e-2a6a-4b10-8190-87955b6a6af6",
+      "position": [
+        0.005435400338929768,
+        0.4082767830666929,
+        0.593631420195508
+      ],
+      "rotation": [
+        0.7071068000000031,
+        0,
+        0,
+        0.7071067623730914
+      ],
+      "scale": [
+        0.3702983796906704,
+        0.6936818531550528,
+        0.6936818531550524
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "29e8d703-c044-4101-8a3f-eb78735b1a75",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Shelf.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Shelf.glb",
+      "order": 5.221186082783937
+    },
+    "c85539fd-ad67-4d38-afbf-8669025fae7a": {
+      "id": "c85539fd-ad67-4d38-afbf-8669025fae7a",
+      "position": [
+        -0.199308107807457,
+        -0.28254845999814815,
+        0.2639678557077704
+      ],
+      "rotation": [
+        0,
+        0.7547095802227719,
+        0,
+        0.6560590289905073
+      ],
+      "scale": [
+        0.0528313915253136,
+        0.05283139152531364,
+        0.05283139152531369
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "5c0445bb-2936-42d0-ab13-8fdcd107d15e",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/red_carpet.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "red_carpet.glb",
+      "order": 9.874644814832411
+    },
+    "f3a6ae25-5a69-4562-bbba-2d769ffc9cdb": {
+      "id": "f3a6ae25-5a69-4562-bbba-2d769ffc9cdb",
+      "position": [
+        -0.31137749647437535,
+        0.4804921912458633,
+        0.6609573479931398
+      ],
+      "rotation": [
+        0.7071068000000033,
+        0,
+        0,
+        0.7071067623730914
+      ],
+      "scale": [
+        0.2379729017054348,
+        0.44579585682661926,
+        0.4457958568266192
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/FG_fondo_rojizo4x-8.png"
+        }
+      },
+      "parentId": "29e8d703-c044-4101-8a3f-eb78735b1a75",
+      "components": {},
+      "name": "Cuadro Logo",
+      "order": 7.061536875489706
+    },
+    "77b568b1-cd50-494e-ae05-f344c394a3d7": {
+      "id": "77b568b1-cd50-494e-ae05-f344c394a3d7",
+      "position": [
+        0.2136432864557378,
+        -0.16103992734303996,
+        -0.01570617811341002
+      ],
+      "rotation": [
+        0.7071067811865465,
+        0,
+        0,
+        0.7071067811865486
+      ],
+      "scale": [
+        0.07473399381088223,
+        0.1205253674946735,
+        0.07473399381088208
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "cde9f13e-2a6a-4b10-8190-87955b6a6af6",
+      "components": {
+        "b4b81e07-8bae-4d11-b4d4-e3bca1763c60": {
+          "id": "b4b81e07-8bae-4d11-b4d4-e3bca1763c60",
+          "name": "collider-link-redirect",
+          "parameters": {
+            "url": "https://www.instagram.com/epilef_g.t/"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/instagram.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "instagram.glb",
+      "order": 8.592572402067795,
+      "collider": {
+        "geometry": {
+          "type": "box",
+          "depth": 3.300000000000002,
+          "height": 1.0000000000000002,
+          "width": 3.200000000000002
+        },
+        "offsetY": 0.3000000000000004
+      }
+    },
+    "3e339447-64b0-4ea0-b9b0-25fd3d0fded8": {
+      "id": "3e339447-64b0-4ea0-b9b0-25fd3d0fded8",
+      "position": [
+        -0.2955775969441548,
+        0.24976386601397604,
+        0.005616169248599201
+      ],
+      "rotation": [
+        -1.1102230528062842e-16,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.2896251250437485,
+        0.28962512504374843,
+        2.063695160697377
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "cde9f13e-2a6a-4b10-8190-87955b6a6af6",
+      "components": {
+        "25976614-5286-47bb-9dfc-4dcc64c164f6": {
+          "id": "25976614-5286-47bb-9dfc-4dcc64c164f6",
+          "name": "collider-link-redirect",
+          "parameters": {
+            "url": "https://www.linkedin.com/in/felipe-gonzalez-tovar-2a02a9424/"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/linkedin_3d.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "linkedin_3d.glb",
+      "order": 9.997707647596433,
+      "collider": {
+        "geometry": {
+          "type": "box",
+          "depth": 0.05,
+          "height": 0.8,
+          "width": 0.8
+        },
+        "offsetX": 0.4,
+        "friction": 0.8600000000000003,
+        "offsetZ": 0,
+        "offsetY": 0.411
+      }
+    },
+    "8e9224fe-02cc-462a-8abd-7a60073dfbf7": {
+      "id": "8e9224fe-02cc-462a-8abd-7a60073dfbf7",
+      "position": [
+        0.21369252364839234,
+        0.07383779218480435,
+        -0.00042597530039523157
+      ],
+      "rotation": [
+        -9.827139374291273e-17,
+        -0.4653056988309004,
+        5.1659320956150653e-17,
+        0.8851500475261171
+      ],
+      "scale": [
+        0.0898730261074941,
+        0.08987302610749409,
+        0.0898730261074941
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "cde9f13e-2a6a-4b10-8190-87955b6a6af6",
+      "components": {
+        "9dfd9841-433a-4b87-a2af-6cc1d74eb631": {
+          "id": "9dfd9841-433a-4b87-a2af-6cc1d74eb631",
+          "name": "collider-link-redirect",
+          "parameters": {
+            "url": "https://github.com/Gonto265",
+            "openInNewTab": true
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/github_kitten.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "github_kitten.glb",
+      "order": 11.783889922730694,
+      "collider": {
+        "geometry": {
+          "type": "sphere",
+          "radius": 1.3000000000000003
+        },
+        "offsetY": 1.2
+      }
+    },
+    "b69dc023-b70c-4431-b73c-46efe8313ae7": {
+      "id": "b69dc023-b70c-4431-b73c-46efe8313ae7",
+      "position": [
+        -0.27496284693145806,
+        0.24382991686204902,
+        0.003950384719089733
+      ],
+      "rotation": [
+        0.7071068000000031,
+        0,
+        0,
+        0.7071067623730914
+      ],
+      "scale": [
+        0.16539232837575027,
+        0.3098302966952195,
+        0.3098302966952194
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "29e8d703-c044-4101-8a3f-eb78735b1a75",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/gaming_chair_-_grey_cushioned.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Gaming Chair",
+      "order": 8.388134422701684
     }
   },
   "spaces": {
